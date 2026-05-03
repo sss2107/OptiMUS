@@ -1,8 +1,24 @@
 # **OptiMUS**: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models
 
+> Fork note: this repository is a fork used for studying and experimenting with LLM-assisted optimization modeling. The upstream project and paper remain the authoritative source.
+
 #### Live demo: https://optimus-solver.vercel.app/
 
 This repository contains the official implementations for [OptiMUS: Scalable Optimization Modeling with (MI) LP Solvers and Large Language Models](https://arxiv.org/pdf/2402.10172). Check out [this](https://github.com/teshnizi/OptiMUS/tree/optimus_v1) branch for an implementation of the older version.
+
+## Repository Structure
+
+```text
+.
+├── agents/                 # Manager, evaluator, programmer, tester, and formulator agents
+├── utils/                  # Target extraction and helper utilities
+├── README.md
+└── LICENSE
+```
+
+## Why This Is Interesting
+
+OptiMUS explores how large language models can help formulate and solve mixed-integer and linear programming problems. It is useful as a reference for agentic modeling workflows, solver-assisted reasoning, and optimization problem decomposition.
 
 
 ![AgentTeam](https://github.com/teshnizi/OptiMUS/assets/48642434/ae11ff0d-2d1e-4832-9dcc-533af4c5cde0)
@@ -19,5 +35,4 @@ This repository contains the official implementations for [OptiMUS: Scalable Opt
   year={2024}
 }
 ```
-
 
